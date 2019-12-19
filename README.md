@@ -34,3 +34,4 @@
 
 * Add **tracking-check-order-status** and **tracking-check-order-status** lambda functions to the instance of Amazon Connect, with this you are granting Amazon Connect permission to invoke lambda functions.
 * Edit the contact flow **tracking-order** by updating the **nvoke AWS Lambda function** components with the ARN of the lambdas created.
+* **Save** and **Publish** your contact flow.
